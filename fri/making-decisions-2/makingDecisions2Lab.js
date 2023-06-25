@@ -7,7 +7,7 @@ var arr = [10,20,30,40,50,60]
 */
 
 //Code Here
-let firstItem = 10;
+let firstItem = arr[0];
 
 ////////// PROBLEM 2 //////////
 /*
@@ -16,7 +16,7 @@ let firstItem = 10;
 
 //Code Here
 let lastItemRemoved = arr.pop();
-console.log(lastItemRemoved);
+//console.log(lastItemRemoved);
 console.log(arr);
 
 ////////// PROBLEM 3 //////////
@@ -157,6 +157,26 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 */
 
 //Code Here
+
+switch (letterGrade) {
+  case 'A':
+    console.log(`The student is doing excellently`);
+    break;
+  case 'B':
+    console.log(`The student is doing wells`);
+    break;
+  case 'C':
+    console.log(`The student is doing alright`);
+    break;
+  case 'D':
+    console.log(`The student is not doing well`);
+    break;
+  case 'F':
+    console.log(`The student is failing`);
+    break;
+  default:
+    console.log(`Not eligible grade`)
+}
 
 
 
