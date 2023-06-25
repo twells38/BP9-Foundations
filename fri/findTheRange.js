@@ -13,7 +13,7 @@ function findTheRange(array) {
         }
       
     }
-    console.log(`min's value is ${min} and max's value is ${max}`)
+    console.log(`minimum value is ${min} and maximun's value is ${max}`)
 }
 findTheRange(array);
 
